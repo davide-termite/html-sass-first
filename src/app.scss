@@ -1,0 +1,21 @@
+$color_primary: #ededed;
+$color_secondary: red;
+$background_primary: #000;
+
+$text_margin: 25px;
+$text_style: uppercase;
+
+body{
+  background-color: $background_primary;
+  color: $color_primary;
+}
+
+h1 {
+  margin-top: $text_margin;
+  text-transform: $text_style;
+}
+
+h2 {
+  margin-top: $text_margin;
+  color: $color_secondary;
+}
